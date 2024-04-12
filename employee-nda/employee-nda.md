@@ -1,8 +1,8 @@
-## [Company Name]
+## {{ internal_company_name }}
 
 ### EMPLOYEE CONFIDENTIALITY AND NON DISCLOSURE AGREEMENT
 
-This Employee Confidentiality and Non-Disclosure Agreement (the "Agreement"), executed this ____ day of _____________, 20____, but effective for all purposes on the Effective Date, is entered into, by and among "[COMPANY NAME]" ("[AKA]"), a [state and entity type], and ____________________________________, an individual and Employee of "[AKA]" ("Employee").
+This Employee Confidentiality and Non-Disclosure Agreement (the "Agreement"), executed this ____ day of _____________, 20____, but effective for all purposes on the Effective Date, is entered into, by and among "{{ internal_company_name }}" ("[AKA]"), a [state and entity type], and ____________________________________, an individual and Employee of "[AKA]" ("Employee").
 
 1.  RECITALS
   1.1.  Employee is an "at will" employee of "[AKA]".
@@ -47,7 +47,7 @@ IN CONSIDERATION of the mutual covenants and agreements contained herein, and or
 
   2.4.  Materials:  "Materials" shall mean any physical, analog or digital source or recording of the Confidential Information, including without limitation, paper, digital media of any type, recordings or other means of recording, storing or keeping information.
 
-  2.5.  [AKA]:  "[AKA]" shall mean [Company Name], a [state and entity type], its predecessors and/or successors in interest, agents, contractors, and employees.
+  2.5.  [AKA]:  "[AKA]" shall mean {{ internal_company_name }}, a [state and entity type], its predecessors and/or successors in interest, agents, contractors, and employees.
 
   2.6.  Effective Date: "Effective Date" shall mean Employee's first date of employment with [AKA], its predecessors and/or successors in interest, agents, or contractors.
 
@@ -153,7 +153,7 @@ IN CONSIDERATION of the mutual covenants and agreements contained herein, and or
 
 IN WITNESS WHEREOF, the parties acknowledge that they have read and understand this Agreement in its entirety, have had the opportunity to seek legal counsel if so desired, and have executed this Agreement on the date first written above and effective as of the Effective Date.
 
-[Company Name]
+{{ internal_company_name }}
 
 
   Name: ______________________________________________

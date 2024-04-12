@@ -1,6 +1,7 @@
 from jinja2 import Environment, FileSystemLoader
 import markdown
 import yaml
+import os
 
 env = Environment(loader=FileSystemLoader('.'))
 template = env.get_template('employee-nda.md')
@@ -15,4 +16,10 @@ rendered_content = template.render(data)
 # Convert the rendered content from Markdown to HTML
 html_content = markdown.markdown(rendered_content)
 
-print(html_content)
+# Create the dist directory if it doesn't exist
+if not os.path.exists('dist'):
+    os.makedirs('dist')
+
+# Save the HTML content to a file in the dist folder
+with open('dist/output.html', 'w') as html_file:
+    html_file.write(html_content)
