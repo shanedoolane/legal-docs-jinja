@@ -1,5 +1,5 @@
 ## What this is:
-YML generated templates for commonly used legal documents. 
+Free, unencumbered NDA(s), employment agreement(s), and other legal contracts formatted with yaml-backed jinja2 templates. 
 
 ## Use at your own risk
 
