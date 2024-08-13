@@ -1,0 +1,48 @@
+address: "sample address"
+landlord_name: "sample name"
+tenant_1: "sample name"
+lease_start_datetime_utc: "20350704T150000Z"
+lease_end_datetime_utc: "20360602T070000Z"
+rent: 1000.00
+rent_day: "1st"
+max_late_days: 1
+late_fee: 5.00
+late_percent: 5
+late_rent_period: 1
+rent_increase_notification_period_days: 0
+payment_methods_list: "Cash, Check"
+pro_rate_formula: "Pro-rated Rent = "
+security_deposit_full: 500.00
+deduct_unpaid_rent: True
+deduct_unpaid_late_fees: True
+deduct_unpaid_utilities: True
+deduct_repairs: True
+deduct_cleaning_fee: True
+cleaning_fee_minimum: 50.00
+deduct_early_termination_fee: True
+deduct_brokerage_fee: False
+deduct_others: False
+others: ""
+security_deposit_return_days: 21
+tenant_forwarding_address: "____________________________________________________________________________________________________________________________________________________________________"
+pre_origin_termination_fee: 500.00
+tenants_family_members: "____________________________________________________________________________________________________________________________________________________________________"
+max_days_guest: 10
+subletting_allowed: FALSE
+sublease_notification_days: 1000000
+right_of_entry_notification_hours: 48
+non_deliver_possession_duration_days: 0
+utilities_provided_by_landlord: "None"
+utilities_split_with_tenant: "Electricity, Gas"
+pets_allowed: FALSE
+parking_provided: TRUE
+parking_spots: 1
+parking_fee: 0
+description_of_parking_spot: "1 parking spot"
+ability_to_terminate_lease_early: TRUE
+early_termination_notice_days: 30
+early_termination_fee: 1000.00
+smoking_allowed: False
+smoking_allowed_areas: "nowhere"
+landlord_signature: "____________________________________________________________________________________________________________________________________________________________________"
+tenant_signature: "____________________________________________________________________________________________________________________________________________________________________"
