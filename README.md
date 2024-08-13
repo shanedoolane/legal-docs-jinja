@@ -1,9 +1,5 @@
-## License
-
-Public domain under [Creative Commons 0](http://creativecommons.org/publicdomain/zero/1.0/). 
-No rights reserved.
-
-[CC0 FAQ](http://wiki.creativecommons.org/CC0_FAQ).
+## What this is:
+YML generated templates for commonly used legal documents. 
 
 ## Use at your own risk
 
