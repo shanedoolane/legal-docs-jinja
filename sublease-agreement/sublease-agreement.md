@@ -41,7 +41,7 @@ the "Due Date"), notwithstanding that the said date falls on a weekend or holida
 
 ### 1. Late Rent
 If Rent is not paid within {{ max_late_days }} day(s) of the Due Date, the Rent shall
-be considered past due and a late fee of ${{ late_fee }} USD and {{ late_percent }} % of the
+be considered past due and a late fee of ${{ late_fee }} USD and {{ late_percent }}% of the
 Rent past due shall be applied for every {{ late_rent_period }} day(s) Rent is late.
 ### 2. Returned Checks
 In the event that a check intended as payment for Rent is
@@ -104,6 +104,19 @@ when the Tenant moved in after the Term.
 - Others: {{ others }}
 {% endif %}
 
+To maximize the return of the Security Deposit, the Tenant(s) agree(s) to ensure that the Property is left in as close to the move-in condition as possible, with ordinary wear and tear as defined below. The following specific standards will be used in assessing deductions for cleaning, repairs, or replacements:
+
+Cleaning Standards
+The Property, including all appliances, fixtures, and flooring, must be returned in a professionally clean condition, as it was at move-in. If the cleanliness does not meet these standards, the Tenant(s) agree(s) that the Landlord may deduct the cost of professional cleaning services from the Security Deposit.
+
+Floors and Carpeting: All floors must be cleaned thoroughly. Carpets must be professionally cleaned by a reputable company, and proof of cleaning may be required to avoid deductions.
+Kitchen and Bathroom Areas: Counters, sinks, appliances, and all bathroom fixtures must be sanitized and cleaned to a professional standard.
+Walls and Surfaces: Marks, scuffs, and discoloration not associated with normal use must be removed or repaired, including any stains or damage due to cooking, pets, smoking, or other activities.
+Restoration of Alterations
+Any custom upgrades or modifications made by the Tenant(s) must be restored to the original condition unless the Landlord has provided written consent for them to remain. Unauthorized upgrades may be removed by the Landlord, with the associated costs deducted from the Security Deposit. 
+
+The general rule for cleaning is that the Property must be as clean at move-out as it was at move in. The Landlord may use professional cleaners to prepare the the Property in advance of the Lease Term and while the Tenant(s) don’t need to be professional(s), the standard remains the same.
+
 ### 2. Return 
 The Security Deposit or the balance thereof shall be returned by the
 Landlord to the Tenant(s) within {{ security_deposit_return_days }} days after the termination of the Lease
@@ -111,7 +124,7 @@ or in accordance with the applicable law on Security Deposit, whichever is
 sooner. In the event that the Landlord shall make any allowable deduction,
 the Landlord shall provide the Tenant(s) with an itemized list of all deductions
 made specifying the amounts and the respective expenses to which the
-Security Deposit or parts of it was applied.
+Security Deposit or parts of it was applied. In cases where the Landlord desires, the tenant agrees to accept return of security deposit with methods of digital or non-digital payment including but not limited to {{ payment_methods_list }}.
 
 ### 3. Tenant's Forwarding Address
 Upon vacating the Property any and all
@@ -133,6 +146,8 @@ the consent of the Landlord. The Property shall be used solely and exclusively a
 residence. The Property or any part of it shall not be used for any business, profession, vocation, 
 or trade of any kind. The Tenant(s) undertake(s) to abide by any
 and all applicable laws, statutes, and rules covering the Property.
+
+The Tenant(s) shall assume full responsibility and liability for any and all damages, losses, or disruptions to the Property, fixtures, or surrounding areas caused by the Tenant(s)' Guest(s), including but not limited to acts of negligence, intentional misconduct, or failure to follow property rules. Tenant(s) agree(s) to indemnify and hold the Landlord harmless from any claims, damages, or expenses arising from actions or omissions of Tenant(s)' Guest(s). Tenant(s) shall also be liable for any legal, repair, or replacement costs incurred due to Guest(s)-related damages or breaches of property rules.
 
 ## CONDITION
 The Tenant(s) stipulates that The Property has been examined and that
