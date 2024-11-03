@@ -1,8 +1,10 @@
+dates:
+  - lease_start_datetime_utc: "20350704T150000Z" ## https://www.toolvert.com/timezone-converter/
+  - lease_end_datetime_utc: "20360602T070000Z"
+
 address: "sample address"
 landlord_name: "sample name"
 tenant_1: "sample name"
-lease_start_datetime_utc: "20350704T150000Z" ## https://www.toolvert.com/timezone-converter/
-lease_end_datetime_utc: "20360602T070000Z"
 rent: 1000.00
 rent_day: "1st"
 max_late_days: 1

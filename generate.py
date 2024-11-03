@@ -19,7 +19,6 @@ def generate_document(template_file_path):
         data = yaml.safe_load(yaml_file)
 
     # format dates from the date list if there are any dates in the yml
-    print(data.keys())
     if 'dates' in data:
         for date in data['dates']:
             # get date key
@@ -70,13 +69,12 @@ def main():
     )
 
     args = parser.parse_args()
-    print(args.file_paths)
 
     # create an empty string to store the contract in
     rendered_contract = ""
     for file_path in args.file_paths:
         # render the document and add it to the contract
-        rendered_contract += generate_document(file_path)
+        rendered_contract += generate_document(file_path) + "\n"
 
     # convert the string to md object and save as md html
     html_content = markdown.markdown(rendered_contract)
