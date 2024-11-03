@@ -1,5 +1,8 @@
 ## {{ internal_company_name }}
 
+## Document Version: 
+Version: {{ githash }}
+
 ### EMPLOYEE CONFIDENTIALITY AND NON DISCLOSURE AGREEMENT
 
 This Employee Confidentiality and Non-Disclosure Agreement (the "Agreement"), executed this {{ day }} day of {{ month }}, {{ year }}, but effective for all purposes on the Effective Date, is entered into, by and among "{{ internal_company_name }}" ("{{ internal_aka }}"), a {{ state_and_entity_type }}, and {{ employee_name }}, an individual and Employee of "{{ internal_aka }}" ("Employee").

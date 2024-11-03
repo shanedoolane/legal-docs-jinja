@@ -13,6 +13,9 @@ NOW, THEREFORE, for and in consideration of the covenants and obligations
 contained herein and other good and valuable consideration, the receipt and
 sufficiency of which is hereby acknowledged, the Parties hereby agree as follows:
 
+## Document Version: 
+Version: {{ githash }}
+
 ## PROPERTY
 {{ address }} (hereinafter referred to as the "Property").
 
@@ -42,7 +45,7 @@ the "Due Date"), notwithstanding that the said date falls on a weekend or holida
 ### 1. Late Rent
 If Rent is not paid within {{ max_late_days }} day(s) of the Due Date, the Rent shall
 be considered past due and a late fee of ${{ late_fee }} USD and {{ late_percent }}% of the
-Rent past due shall be applied for every {{ late_rent_period }} day(s) Rent is late.
+Rent and Utilities past due shall be applied for every {{ late_rent_period }} day(s) Rent is late.
 ### 2. Returned Checks
 In the event that a check intended as payment for Rent is
 dishonoured for whatever reason, the same shall be considered as Late Rent
@@ -138,9 +141,6 @@ for early termination will be ${{ pre_origin_termination_fee }} USD
 in addition to other applicable deductions outlined in the lease or permitted by law.
 
 ## USE OF PROPERTY
-The Property as defined herein shall be for the sole and
-exclusive use and occupation by the Tenant(s) and same's exclusive family namely: {{ tenants_family_members }}
-
 Any Guest(s) of the Tenant(s) shall not be allowed to stay beyond {{ max_days_guest }} days without
 the consent of the Landlord. The Property shall be used solely and exclusively as a
 residence. The Property or any part of it shall not be used for any business, profession, vocation, 
@@ -227,8 +227,8 @@ extra hazardous by any responsible insurance company.
 The Landlord shall provide the following utilities and services to the
 Tenant(s) without cost: {{ utilities_provided_by_landlord }}.
 
-The Tenant shall equally split the cost of following utilities and services with the Landlord
-Tenant(s): {{ utilities_split_with_tenant }}.
+The Tenant shall equally split the cost of following utilities 
+and services with the Landlord: {{ utilities_split_with_tenant }}.
 
 Any other utilities or services not mentioned will be the responsibility of the Tenant(s).
 

@@ -3,6 +3,9 @@
 agrees and acknowledges that entering into this transaction and others with {{ party2 }} by electronic means is not conditioned on
 {{ party2 }}'s or {{ party1 }}'s agreement to conduct the contractual transaction electronically. Both Parties acknowledge that electronic execution is a convenience without prejudice to the validity or enforceability of the Agreement.
 
+## Document Version: 
+Version: {{ githash }}
+
 ## IN WITNESS WHEREOF
 The {{ party1 }} and {{ party2 }} have executed the subsequent agreement in multiple originals as of the undersigned date(s).
 

@@ -1,5 +1,9 @@
 [Company Name]
 
+## Document Version: 
+Version: {{ githash }}
+
+
 CONFIDENTIALITY AND NON DISCLOSURE AGREEMENT
 
 This Confidentiality and Non-Disclosure Agreement (the "Agreement"), executed this ____day of _____________, 20____, but effective for all purposes on the Effective Date, is entered into, by and among [Company Name] ("[AKA]"), a [State of Incorporation] Corporation, and ________________________  ("Recipient"), a corporation with offices located at __________________________________________.

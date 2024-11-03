@@ -9,7 +9,10 @@ from jinja2 import Environment, FileSystemLoader
 # Get the current date
 current_date = datetime.now()
 
-
+def get_formatted_githash():
+    # Get the Git hash of the current commit
+    git_hash = os.popen('git rev-parse HEAD').read().strip()
+    return git_hash[:19]
 def generate_document(template_file_path):
     # the info file is called info.yml and is in the same dir as the template_file_path
     info_file_path = os.path.join(os.path.dirname(template_file_path), 'info.yml')
@@ -25,6 +28,8 @@ def generate_document(template_file_path):
             date_key = list(date.keys())[0]
             data[date_key] = datetime.fromisoformat(date[date_key].replace("Z", "+00:00"))
 
+    # use the githash to track document verison
+    data['githash'] = get_formatted_githash()
 
     # format text-based dates
     # Format the day
